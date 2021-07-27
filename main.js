@@ -13,7 +13,7 @@ function createWindow() {
         }
     );
     window.loadFile('index.html');
-    window.webContents.openDevTools()
+   // window.webContents.openDevTools()
     
 }
 
@@ -33,7 +33,7 @@ app.whenReady().then(()=>
                 {label:"M1"},
                 {label:"m2"}
             ]
-        }]
+        }];
         const menu = Menu.buildFromTemplate(template);
         Menu.setApplicationMenu(menu)
         
